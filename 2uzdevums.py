@@ -1,4 +1,4 @@
-  """
+"""
     Funkcija akrs akceptē trīs argumentus - skaiļus viens, divi un trīs, 
     aprēķina to kvadrātu starpību un atgriež to.
     Pārbaudiet funkcijas darbību ar dažādiem argumentiem, 
@@ -11,3 +11,10 @@
     Atgriež:
         int vai float -- argumentu summa
  """
+import math
+import decimal
+
+def akrs(a, b, c):
+   kvadrats=float(pow(a,2)+pow(b,2)+pow(c,2))
+   return kvadrats
+print('%.2f'% akrs(2, 3, 4))
