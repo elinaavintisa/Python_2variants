@@ -11,6 +11,7 @@
     Atgriež:
         int vai float -- argumentu summa
  """
+"""
 import math
 import decimal
 
@@ -18,3 +19,14 @@ def akrs(a, b, c):
    kvadrats=float(pow(a,2)+pow(b,2)+pow(c,2))
    return kvadrats
 print('%.2f'% akrs(2, 3, 4))
+"""
+"""Kļudu labojums:"""
+import math
+import decimal
+
+def akrs(a, b, c):
+  kvadrats=float(pow(a,2)+pow(b,2)+pow(c,2))
+  return kvadrats
+
+print("%.4f" % akrs(2, 3, 4)) 
+""" 2f vietā ieliku 4f, jo uzdevumā tiek prasīti 4 cipari aiz komata."""
